@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-sm" bg-light>
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <!-- NAVBAR: Adicionar funcionário -->
+      <li class="nav-item">
+        <a routerLink="funcionario/create" class="nav-link" routerLinkActive="active">
+        Adicionar funcionário
+        </a>
+      </li>
+
+      <!-- NAVBAR: Listar funcionários -->
+      <li class="nav-item">
+        <a routerLink="funcionario" class="nav-link" routerLinkActive="active">
+        Listar funcionários
+        </a>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+
